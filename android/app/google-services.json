@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "296939843623",
+    "firebase_url": "https://cab-driver-78d28-default-rtdb.firebaseio.com",
+    "project_id": "cab-driver-78d28",
+    "storage_bucket": "cab-driver-78d28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296939843623:android:b1732a5e1b51a69a269e02",
+        "android_client_info": {
+          "package_name": "com.asenovate.driversapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABa3QyH0vvd-O5hNo5u31AZRRViEabhfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
