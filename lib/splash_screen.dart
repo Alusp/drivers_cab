@@ -20,7 +20,8 @@ class _MySplashScreenState extends State<MySplashScreen>
   startTimer(){
     Timer(const Duration(seconds: 4), () async {
      // Send User to Home Screen
-      if (fAuth.currentUser != null){
+      if ( await fAuth.currentUser != null){
+        currentfirebaseUser = fAuth.currentUser;
         Navigator.push(context, MaterialPageRoute(builder: (c)=> MainScreen()));
       }
       else
